@@ -1,0 +1,53 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+h2{
+    padding: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 30pt;
+}
+
+header{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: url("https://mytecdoc.ru/wp-content/uploads/2018/08/bg.jpg") ;
+}
+.txt{
+    color: aliceblue;
+    font-size: 14pt;
+    margin: 0 20px 0 20px;
+}
+img{
+    height: 200px;
+    width: 220px;
+    border-radius: 30px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    margin: 10px;
+}
+.rout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    color: cornsilk;
+}
